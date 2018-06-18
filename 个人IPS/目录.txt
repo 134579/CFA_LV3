@@ -1,0 +1,187 @@
+reading 8
+1. the po managemeng process 1
+	steps 不考
+2. the po managemeng process 2
+	重点:return, risk tolerance, time horizen, liquidity needs, tax
+	不考: legal, 
+	return: 计算
+	tax:
+		ordinary tax
+		investment tax
+3. profiling investor 1
+	source of wealth
+		enterpreneurial activity: active, above average risk tolerance
+		inheritance: passive, below average risk tolerance
+	measure of wealth
+		asset base: 收益率一定时, 要达到这个收益率, 当前的本金大小
+			r >10%, => asset base小
+		可能花费更多导致收益要求更高
+	stage of live: 不考
+4. profiling investor 2
+	psychological profiling: 不在这考, 在行为金融学考
+
+5. return objective RRTTLLu, 重点
+	1. open ended: 开放式, 难
+		1. 题型1
+			TIA: total investable asset: 期初可投资资产, 可以直接变卖成现金
+				不包括: 自住房子, 未来能拿到的遗产
+			步骤: 先算未来现金流, 再算TIA, 再算required rate of return 
+			关键概念:
+				maintain the real value: 跑赢通胀
+			例子1:
+				t=0 TIA = 100w, 
+				t=1 cash inflow = 2w, outflow = 10w,
+				inflation = 3%,  need to maintain the real value, 求required return
+			解:
+				100(1+r) +2 - 10 = 100 *(1+3%)
+					=> r = 3% + (10-2/)/100 = 11%
+					
+				
+				
+			计算过程:
+					现金流
+						TIA = T0 cash inflow - T0 cash outflow					T = 1	
+							T0 inflow: 											T0 inflow
+								salary, 											salary(t=1) = salary(t=0) * (1+s), s为工资的增长速度
+								inheritance, 										0
+								current portfolio ...								0
+							T0 outflow: 										T1 outflow
+								living expense										living expense(t=1) = living expense(t=0) * (1+inflation rate)
+								down payment, 首付									mortgage, 月供
+								education cost
+								
+					公式:
+						required return = (t=1 cash flow needs)/TIA + inflation rate 
+							注: 这是税后收益(after tax rate of return)
+						pre tax return= required return / (1- tax rate)
+							计算:	TIA(1+r(1-tax rate)) = TIA(1+inflation rate) + cash flow needs
+										r = (cf needs/TIA + inflation rate)/(1-tax rate)
+										  = required return after tax /(1 + tax rate)
+										  
+						
+						注:
+							都是nominal return
+												
+					
+				重要假设:
+					1. 年中发生的salary,expense, 统一设置发生在年末, 不然没法算了
+					2. 原来portfolio里的资产可以无成本变现,  无损变为TIA
+					3. TIA(T=0)一定是税后的(注意工资, 遗产)
+				
+		
+		2. open ended 题型2
+			客户提前一年找到jjjj, t=0
+			jjjj开始管理客户资产, t=1
+			满足cash flow needs, t=2
+			t = 1
+			TIA = cash inflow - cash outflow
+				inflow =
+					t=0 portfolio + t=[0-1] divdend or coupon
+		
+	2. closed ended: 简单
+		例子: 30岁有TIA, 已知退休后需要3000w, 30-退休, 每年消费10w,
+		求30-退休之前, 每年的要求回报率
+	
+6. risk objective
+	1. 两个相关
+		ability
+			above average, 一般是这个, 因为能找jjjj管理财产的一般有钱...
+			average
+			below average
+			
+		willingness
+			above
+			average
+			below
+	
+							willingness
+					above			below
+		ability		
+		above		above			below
+		below		below			below
+		只有当ability和willingness都是above average, risk tolerance才是above average
+		risk tolerance = ability && willingness
+	2. 影响ability因素:
+		time horizen: 投资期限, ↑
+		portfolio size: ↑
+		required return: ↓
+		spending needs: ↓
+		goal importance: 目标越重要, 风险承担能力越低↓
+			对比:
+				living expense(重要): risk ability低
+				donation(不重要): risk ability高
+		flexibility: ↑
+	3. 影响willingness因素:
+		过去投资:  past investment style
+			国债: 低
+			小盘股: 高
+		表现:
+			过度anxiety, 低
+		自己说自己不算, 就算自己说风险willingness高, 也有可能实际willingness低
+		
+7. time horizen
+	example:
+		青年夫妇有遗产
+		高管退休
+		青年退休(运动员, IT)
+		time horizen都是高
+	
+	multistage
+		一般是多个(multistage)人生阶段, 至少退休前后stage不同
+	
+	描述stage:
+		1. before retirement
+		2. after retirement
+		3. after child education ...
+	
+8. tax
+	如果capital gain tax rate > divdend tax rate, should
+	investment stock that pay more divdend, 选择税率低的投资
+
+9. liquidity needs, 计算, 描述
+	考虑短期cash flow needs
+		= cash flow needs
+		
+10. legal不考
+
+11. unique circumstance
+	比如不吸烟, 所以不投资烟草股
+
+12. choosing optimal portfolio
+	1. return要求
+	2. 风险要求
+		standard deviation
+	3. disallowed asset class
+		1. 客户不投的
+		2. IT从业者不投互联网股票, 减小相关性
+	4. liquidity needs
+	5. sharpe ratio高的
+
+13. monte carlo simulation
+	优点:
+		1. path dependent
+		2. multi period simulation
+		3. more infomative, provide more information
+	缺点:
+		rely on historical data
+		
+14. 6 steps
+	1. classify investor
+	2. cash flow analysis
+		TIA,
+		cf needs
+	3. calculate required return 
+	4. risk
+		increase ability
+			more time horizen
+			large portfolio
+		decrease
+			higher required return
+			spending needs
+			goal importance
+	5. time and liquidity constraint
+	6. renew objectives
+	
+		
+Case 2008 morning Q1
+
