@@ -181,7 +181,4 @@ reading 8
 			goal importance
 	5. time and liquidity constraint
 	6. renew objectives
-	
-		
-Case 2008 morning Q1
-
+ 

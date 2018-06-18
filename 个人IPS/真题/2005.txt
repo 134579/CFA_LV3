@@ -1,0 +1,97 @@
+t=0 55 age
+t=1 56退休 
+	income 
+		450k before tax
+		500k tax-exempt
+		8500k sale of stock
+		1200k money market, earn 2.5%/y
+		salary: 250k
+		home: 1400k
+	cash outflow
+		living expense: 250k, 3%
+		tuition expense 150k, 6% inclement/y
+		donation 100k/y
+		
+	maintain real value
+	28% tax salary, benefi
+	3% inflation
+	
+25 year after retirement
+
+
+A:
+	return objective:
+		√ 1. maintain the real value of the portfolio
+		√ 2. pay education expense of her son Lok
+		√ 3. make donation to a charity per year
+	after tax return
+		t=1
+			total investable asset
+				cash inflow
+					1. (taxable lump cash payment) * 72% = 324k
+					2. (tax-exempt cash payment) 		 = 500k
+					3. (sale of stock) - (capital gain tax from stock)
+														 = 8500k
+					4. money market fund + fund earn	 
+										  =  1200k*1.025 = 1230k
+					** fund earn要交税
+					** 4. money market fund + fund earn	 
+					**					  =  1200k +1200k*2.5%*72% = 1221.6k
+					× 5. salary = 0
+					×** 一年后退休了, salary没有
+					*** 退休的最后一年还有salary, 此时的250k相当于t=0到t=1的这一段时间的工资折现到t=1时刻, living expense同理
+					×*** 5. salary = 250k* (1+3%) = 257.5k
+					**** salary应该是250k
+					**** 5. salary = 250k 
+				
+				cash outflow
+					1. living expense = 250k * (1+3%) = 257.5k
+					**** living expense = 250k
+					** 2. 还有tuition
+					** 	education expense = 150k
+					** 3. 还有donation
+					** donation = 100k
+		
+				tia = inflow - outflow
+					= 10295.6k
+					
+		t=2 
+			cash inflow
+				1. salary = 0
+				
+			cash outflow
+				1. living expense = 250k*(1+3%)^2 = 265.225k
+				** living expense = 250k*(1+3%) = 257.5k
+				2. tuition = 150k * (1+6%) = 159k
+				3. donation = 100k
+				
+			cash flow needs = 516.5k
+			
+		after tax inflation adjusted rate of return =
+			516.5/10295.6 + 3% = 8.0167%
+			
+B:
+	i:
+		√ risk ability:
+			high: large portfolio size
+		√ risk willingness:
+			low: conservative investment policy
+		overall risk tolerance:
+			below average: because she has low risk willingness
+			
+C:
+	i:
+		time horizen:
+			long: because she is expected to live 25 years after retirement
+			* two-stage:
+			* four year after retirement: have to pay Lok's university expense
+			* after that: annual donation and living expense
+		tax concern:
+			* because capital gain is not taxable, there is a preference for return from capital gain
+	
+		
+		
+
+			
+			
+	

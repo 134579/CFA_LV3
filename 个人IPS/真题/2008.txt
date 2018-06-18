@@ -1,0 +1,114 @@
+at: after tax
+**:正确答案
+
+morning Q1
+	return:
+		t=0
+		in:
+			current value of trust = 1500k
+				reach 30, get half of trust, another half is not considered as tia
+		
+			short term bank deposit 500k 
+		out:
+			down payment: 850k * 30%
+		
+
+		t=1
+		in: 
+			total salary 120k at
+		out:
+			living expense 120k
+			mortgage 55000 at for 30 years
+
+		inflation rate = 4%
+		expense increase = 4%
+		salary increase rate = 4%
+		
+		tax rate = 20%
+		
+		capital gain = 15%
+		wealth transfer tax rate = 
+		
+		short term:
+			cover mortgage
+		long term:
+			portfolio return = current salary adjusted  by inflation 
+
+	risk
+		family healthy insurance is provided by employer
+		children local university at no cost
+		no tuition fee of children
+		
+	Question
+	A:
+		i:
+			√ cover mortgage
+			√ get income comparable to their salary after they retire
+			** 这一句话总能写
+			** maintain inflation adjusted value of their portfolio
+		ii:
+			t=0:
+				tia = cash inflow - cash outflow
+					= 500k + 1500k * 50% - 850k * 30%
+					= 995k
+				** 即使能抵消也要写全
+				** 写出明细科目
+				** tia = cash inflow - cash outflow
+				**	   = short term deposit + half the value of trust + salary - (living expense + down payment)
+					   
+			t=1:
+				cash flow needs = cash outflow - cash inflow
+								= living expense + mortgage - salary
+								= 55k
+				** cash flow needs = cash outflow - cash inflow
+								   = (mortgage + living expense) - salary
+			after tax nominal rate of return 
+				= 55/995 + 4%
+				= 5.527% + 4%
+				= 9.527%
+	
+	B:
+		i:
+			√ they have their healthy insurance provided by their employer
+			√ they have big portfolio size
+			their salary can cover their living expense
+			hopefully, their children will goto local college without tuition fee
+			** long time horizen 年轻人总可以写
+			** have more human capital
+			** will receive 50% of trust 10 years later
+			** inherit a large sum of money from Mariana's parents
+		ii:
+			√ they require a high rate of return
+			√ their children may fail the exam and if so, they will have to pay full tuition
+			** moderate asset base compared to required flow
+		iii:
+			above average
+			
+	C:
+		i:
+			** 流动性需求基本只需要简述T=1 cash flow needs
+			liquidity constraints:
+				need to pay after tax mortgage at 55k
+				
+		ii:
+			time horizen:
+			** 不同stage分开说
+			** 首先说long time horizon, multi stage
+			before retirement: need to cover living expense and pay mortgage
+			after retirement: need to provide income comparable to their current salary
+		
+		
+	D:
+		i:
+			current return objective:
+			1. cover their living expense after retirement
+			2. make donations to a regular program
+			3. leave 5000k to each of their children
+		ii: 
+			TIA = 10200k
+				(1+r)^5 = 15000/10200
+			=> r = 8.018%
+			** 错误
+			** 没有考虑 mortgage
+			** pv = 10200, pmt = -55, fv = -15000, n=5
+			** => i/y = 8.48%
