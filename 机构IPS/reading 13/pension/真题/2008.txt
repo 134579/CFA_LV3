@@ -1,0 +1,47 @@
+Question 3
+A:
+	√ discount rate will reduce from 7% to 6.5% in 2008. so pbo will increase in 2008
+	
+B:
+	√ total return objective of penson asset in 2007 = 
+		7% + 2.5% = 9.5%
+	** and total return objective will remain unchanged in 2008
+	√ excess return of pension asset ** in 2008 **= 
+		9.5% - 6.5% = 3%
+
+C:
+	minimization of shortfall risk
+
+D:
+	i:
+		√ sponsor's debt/asset ratio > industry's debt/asset ratio, indicates TEPP below average ability to take risk
+	ii:
+		√ TEPP is underfunded, and the shortfall is larger than industry average, indicate TEPP is below average ability to take risk
+	iii:
+		√ TEPP allows early retirement and lump sum payments, which most U.S airlines don't allow. this indicate  TEPP has below average ability to take risk 
+	iiii:
+		√ average age of TEPP paricipants is 47, and is above industry average, indicate shorter time horizen and higher liquidity needs, which indicates below average ability to take risk
+E:
+	√ liquidity needs in 2008 = 
+		benefit - contribution = 1030 million - 927 million
+							   = 103 million
+
+F:
+	i:	
+		× retired lives is more sensitive to inflation
+		** retired lives benefit is fixed
+		** active-lives portions pension benefit based on salary increase , which is influenced by inflation
+		** so active-lives portions is more inflation sensitive
+		** reading 14, 不考
+	ii:
+		√ duration is higher in active-lives portions because they have longer time horizen
+G:
+	barrows:
+		√ TEPP should be ALM(asset liability matching), and equity doesn't match this rule
+		** changes in equity values will not match change in pension liability
+	tate:
+		× TEPP is currently underfunded, so required return of fund asset must be higher than risk free rate
+		*** √
+		** TEPP should be ALM, and changes in risk free securities is not correlated with pension liability
+		*** 原来的解答也对
+		

@@ -1,0 +1,39 @@
+1. characteristic
+	1. no forced spending rule
+	2. can have spending rule
+
+2. spending rule
+	1. simple spending rule
+		spending_t = spending rate * market value_(t-1)
+	2. rolling 3 year average spending rule
+		spending_t = spending rate * avg([market value_(t-i) for i in [1,3])
+	3. geometric spending rule
+		spending_t = R * spending_(t-1)(1 + inflation rate_(t-1) ) + (1-R) * spending rate * market value_(t-1)
+		
+3. return
+	和foundation一样
+
+4. risk tolerance
+	1. spending rate
+		↑ => risk tolerance ↓
+	2. heavily rely on donation
+		=> risk tolerance ↓
+	3. no spending rule 
+		=> risk tolerance ↓
+	4. smaller size
+		=> risk tolerance ↓
+	
+5. liquidity needs
+	一般较小
+	1. no contractual liability
+	2. 计算
+		liquidity needs = spending rate + fund expense
+							- donation
+	
+6. time horizen 
+	long, typically infinite
+	
+7. tax, legal
+	1. tax-exempt
+	2. little goverment oversight
+	

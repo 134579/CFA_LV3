@@ -1,0 +1,37 @@
+Question 3
+A:
+	i:
+		objective of WU endowment:
+		√ 1. perpetual support WU operating
+		√ 2. maintain the real value of endowment's asset against inflation
+	ii:
+		√ required return = spending rate + inflation rate + fund expense
+						= 5% + 4% + 0.55%
+						= 9.55%
+						
+B:
+	i:
+		√ if private donation no longer exists, the liquidity needs of WU endowment increase, thus risk tolerance decrease
+	ii:
+		√ if expected inflation increase, the return objective of WU endowment increase, thus risk tolerance decrease
+
+C:
+	i:
+		√ WU endowment liquidity needs to cover spending rate of WU and expense of the fund
+		√ liquidity needs = spending rate + fund expense - donation
+	ii:
+		√ the time horizen of wu endowment is perpetual
+
+D:
+	i:
+		√ action 3
+		√ because decrease the risk of the portfolio will result in lower rate of return , thus can't maintain the real value 
+	ii:
+		√ action 2:
+		√ rolling 3 year average spending rule use spending rate * (average market value of last three year) to estimate spending of near, thus is less volatile than simple spending rule
+
+E:
+	1. SU has lower inflation rate
+	√ 2. SU has 90% operating budget funder by goverment, and Wu receive no goverment financial support. WU is more relied on WU endowment
+	√ 3. SU evaluate it's fund manager on 6 year's average return, WU evaluate on 3 years average return. thus SU endowment has lower volatility than WU endowment, and greater risk tolerance
+	** SU use rolling 3 year spending rule other than simple spending rule, thus SU endowment is less volatile and has higher risk tolerance

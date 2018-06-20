@@ -1,0 +1,94 @@
+1. 类型
+	1. lifetime gift: 生前赠予
+	2. bequeath: 死后遗产
+	
+2. probate, 遗嘱认证
+	1. 如何规避
+		1. joint ownership
+			买房写两个人名字, 规避遗产税
+		2. living trust
+		3. retirement plan
+			退休金家庭共享
+			
+3. 继承权
+	1. 类型
+		1. forced heirship rules
+			强势继承权
+			就算遗嘱里没有写, 也会获得遗产
+			claw back: lifetime gift会被计入遗产, 重新计算forced heirship继承多少
+		2. community property rights
+			夫妻共同财产(婚后)
+		3. separate property rights
+	
+	2. 采用哪种最优?
+		假设一个富豪挂了, 他的资产如下:
+		1. 婚前资产 50w
+		2. 夫妻共同财产 130w
+		问: 妻子该采用哪种继承权? 
+			forced heirship, 妻子继承30% 
+				or community property?
+		答: 如果用forced heirship, 妻子继承 (50 + 130) * 30% = 54w
+			如果用community property, 妻子继承 130*50% = 65w
+			所以妻子应该此阿勇community property rights
+	
+4. core capital
+	定义: 要满足自己未来所有生活的必须资产
+	1. 个人资产负债表
+		asset:
+			human capital(折现率 > rf, 因为可能不稳定)
+			financial capital
+		liability:
+			cc(折现率 rf无风险利率)
+		equity:
+			surplus(can be lifetime gift, or donation...)
+	
+	
+5. gift和bequeath对比
+	假设A给B, 
+	1. FV
+		fv_gift = [1+r_b*(1-t_b)] * (1-t_gift)
+		fv_bequeath = [1+r_a*(1-t_a)] * (1-t_bequeath)
+	2. RV
+		rv = fv_gift/fv_bequeath
+
+6. 少交税方法		
+	1. valuation discount
+		先买一个pe, 然后给pe低估值, 这样可以少交税
+	2. trust
+		1. 分类
+			revocable trust
+			irrevocable trust, 不可撤销
+				asset protection
+				settlor -> trustee -> beneficial
+				委托人      受托人     受益人
+		2. fixed trust, 固定收益trust
+		3. spendthrift trust,
+			受托人未成年
+			
+7. 寿险
+	whole life insurance
+	终身寿险, 只要投保人去世, 受益人就会拿到收益
+	
+8. double taxation
+	跨国税收
+	source jurisdiction, 在哪发生的就在那征税, 属地征税
+	residence jurisdiction, 哪国公民就在国籍国征税, 属人征税
+	1. residence-residence conflict
+		同一个人在不同地都要交税
+	2. source-source conflict
+		跨国的一个贸易, 在两国都要交税
+			一般通过两国间贸易协定规定具体在哪交税
+	3. residence-source conflict
+		1. 定义
+			一个美国人拥有一个中国房产, 卖房后要交两份所得税
+		2. 解决方法:
+			原则: 属地税肯定交, 
+			1. credit method
+				max(T_source, T_residence)
+				假设中国税率40%, 那么美国人在中国交40%的税, 如果美国税率<=40%, 那他在美国不用交税
+				假设中国税率30%, 那么美国人在中国交30%的税, 如果美国税率50%, 那他在美国交50-30%的税
+			2. exemption method
+				只要交属地税...
+			3. deduction method
+				属地国交: T_source
+				属人国交: (1 - T_source)*T_residence

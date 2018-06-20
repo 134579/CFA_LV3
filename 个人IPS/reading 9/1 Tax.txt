@@ -1,0 +1,80 @@
+reading 9
+1. tax 分类
+	income tax: 
+		ordinary income tax: 工资税
+		divdend tax: 股利税
+		capital gain tax: 资本利得税
+	
+	wealth-based tax
+		对所拥有的征税
+		房产税, 遗产税
+		
+2. accrual tax
+	1. 特点
+		每年末征税,	对收益征税
+	2. 计算
+		n年末净值:
+			V_n = V_0 * (1 + r - r*t)^n
+				= V_0 * (1 + r(1-t))^n
+			where
+				r: before tax rate of return
+				t: income tax rate
+		
+	3. tax drag
+		1. 定义:
+			由于征税导致最终净值的减少
+		2. 计算
+			tax drag = V_0(1+r)^n - V_0(1+r(1-t))^n
+		3. tax drag对最终收益的影响比例
+			percentage = tax drag/(V_0(1+r)^n - V_0)
+		4. 特点:
+			1. percentage一般大于t, 证明:
+				a^n - b^n = (a-b)(a^(n-1) + a^(n-2)b^2 +...+b^(n-1))
+				pct/t = ( V_0(1+r)^n - V_0(1+r(1-t))^n )
+							/ (V_0(1+r)^n - V_0) / t
+					  = ( (1+r)^n - (1+r(1-t))^n ) / ((1+r)^n - 1) / t
+					  = rt * (α) / (r*(β)) / t
+					  = (α)/(β) > 1
+			2. n↑ => percentage↑
+			3. r↑ => percentage↑
+			
+3. defered capital gain tax
+	1. 特点
+		只交一次, realized时交税
+	2. 计算
+		tax = ((1+r)^n - 1)* t_cg
+		future value = (1+r)^n - ((1+r)^n - 1)* t_cg
+					 = (1-t_cg)(1+r)^n + t_cg
+	3. tax drag percentage
+		tax drag pct = ((1+r)^n - 1)* t_cg / (((1+r)^n - 1))
+					 = t_cg
+					 
+4. cost basis
+	1. 定义
+		defered capital gain tax的特殊情况
+		cost basis可能和purchasing price不一样
+	2. 计算
+		cost basis = b
+		tax = ((1+r)^n - b)*t_cg
+			此时(1+r)^n不是减去1, 而是减去b
+		future value = (1+r)^n - tax
+		
+
+5. wealth-based tax
+	1. 计算
+		fv = [(1+r)(1-t_w)]^n
+	2. tax drag percentage
+		tax drag = (1+r)^n - [(1+r)(1-t_w)]^n
+		tax drag percentage =
+			tax drag/((1+r)^n - 1)
+	
+	3. 特点
+		1. tax drag pct > tax rate
+		2. n↑ => tax drag pct↑
+		3. r↑ => tax drag pct↓
+			证明: 假设n=1
+			tax drag pct = ((1+r) - (1+r)(1-t_w))/(1+r-1)
+						 = (1+r)t_w/r
+						 = (1/r+1)t_w
+			r↑ => tax drag pct↓
+		

@@ -1,0 +1,126 @@
+1. 机构分类
+	1. pension(最重要)
+		主要是DB plan,
+		DC plan和个人IPS有关, 因为是个人决定投资什么
+	2. charitable bodies(第二重要)
+		foundation endowment
+	3. insurance
+		life insurance(第三重要)
+		non-life insurance
+	4. bank
+
+
+2. pension概念
+	1. sponsor: employer
+	2. partcipant: employee
+	3. DC, DB difference
+		DC:
+			1. employer only obligation is to make contribution
+			2. employee owns assets, make investment decision
+			3. contribution is regarded as expense
+			4. 分类
+				1. sponsor direct
+					只有一种ESOP
+				2. partcipant direct
+					其他DC都属于participant direct, partcipant make investment decision
+		DB:
+			1. employer manage the plan and bear investment risk
+			2. pension plan is regarded as liability
+	4. ESOP
+		employee sotck ownership plan: 员工持股计划吗, 本质是DC, 投资的是本公司股票
+		1. 特点:
+			1. 风险高, 因为employee的human capital and financial capital correlation high
+			2. 优点:
+				1. 让库存股流动性增加
+				2. avoid ipo
+				3. fend off hostile takeovers
+	
+	5. DB plan:
+		1. funded status:
+			funded status = PV of pension fund - PBO(pv of pension liability)
+			funded status > 0 => overfunded
+			              < 0 => underfunded
+	
+	6. ALM, AO
+		1. asset liability matching:
+			1. 特点
+				1. 资产与负债的波动匹配, 相关性高的策略
+				2. 不追求asset的最大收益
+				3. 要求负债增加时资产也要增加, 负债减少时资产减少
+				4. 在负债很重要(contractual liability)(如养老金)时采用
+				5. 要求asset cover liability
+				
+		2. asset only: 只有资产, 要求投资组合达到optimal portfolio
+		
+	7. ABO, PBO
+		1. current wage
+		2. future wage growth
+		3. new employees
+		4. benefit change
+		ABO 只考虑 current wage
+		PBO 考虑 current wage and future wage growth
+		total future liablity 考虑所有
+		
+	8. funding rate
+		funding rate = pension asset/ pension liability
+3. rrttllu
+	1. return
+		1. objective
+			1. cover pension liability(总是可以写)
+			*2. if funded status < 0 , may require high return
+			*3. minimize contribution
+			*4. maybe higher return is required if sponsor is trying to lower future contribution
+			1一定有, 2,3,4可能有
+			
+			
+		2. 计算
+			1. overfunded, PV_a > PV_l
+				Δfs = asset * r + contribution - benefit - ΔPBO = 0
+				required return = liability discount rate
+			2. underfunded
+				required return = liability discount rate + excess return(题目中会给)
+			
+	2. risk tolerance
+		只有ability, 没有willingness
+		1. ability
+			1. 和其他foundation比
+				低, 因为是alm的
+			2. 和其他DB比(重点)
+				1. plan status
+					overfunded => ability ↑
+				2. sponsor financial status
+					debt ratio ↓ => ability ↑
+					currency ↑ => ability ↑
+				3. common risk exposure between sponsor operating and pension asset
+					ρ ↓ => ability ↑
+				4. plan feature
+					early retirement allowed => liquidity needs ↑ => ability ↓
+					lump sum distribution(大额支取) => liquidity needs ↑, time horizen ↓ => ability ↓
+				5. workforce
+					younger worker ↓ => liquidity needs ↓, time horizen ↑ => ability ↑
+				6. going concern(新员工可以加入)
+					going concern => younger workers => ability ↑
+	3. risk objective
+		1. minimization of shortfall risk(总是可以写)
+		2. obtain certain level of funding status
+		
+	4. liquidity
+		1. 定性
+			1. workforce age
+				↓ => liquidity needs ↓
+			2. sponsor contribution - benefit payment
+				↑ => liquidity needs ↓
+			3. going concern
+				=> workforce age ↓ => liquidity needs ↓
+			4. early retirement
+				=> liquidity needs ↑
+			5. lump sum payment
+				=> liquidity needs ↑
+		2. 计算
+			liquidity needs this year= contribution - benefit
+	
+	5. time horizen
+		1. going concern
+			=> time horizen ↑
+		2. 不一定是multi-stage
+		

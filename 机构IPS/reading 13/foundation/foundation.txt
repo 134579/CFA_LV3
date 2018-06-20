@@ -1,0 +1,63 @@
+1. foundation, endowment区别
+	1. 区别
+		foundation				endowment
+		个人						组织
+		CF单一						CF diversify
+		监管更严					监管更松
+		强制spending rule			不强制spending rule
+	
+	2. spending rule
+		每年必须把资产的一部分做慈善, 才能免税
+		
+2. foundation
+	1. 分类
+		individual foundation: 个人设立
+		company sponsored foundation: 公司成立
+		operating foundation: 为某一个目的设立的 foundation
+		community foundation: 和endowment一样
+		
+3. rrttllu
+	1. return
+		1. objective
+			1. indefinitely long horizen
+				perpetual support 永续存在
+			2. preserve the real value
+				maintain the real value 抗通胀
+				
+		2. 计算
+			required rate of return = spending rate + inflation rate + (fund expense)
+			fund expense可能有, 可能没有
+			inflation以资助的行业inflation为主, 如果没有才用整个国家的inflation rate
+	
+	2. risk tolerance
+		1. 比较foundation和pension
+			1. risk tolerance高
+				1. no contractual liability, asset only(AO) => tolerance ↑
+				2. long time horizen => tolerance ↑
+				3. * spending rate低
+					可能是, 要结合原文
+					
+		2. foundation之间比较
+		
+			
+	3. liquidity needs
+		1. 定性
+			1. 总体较低
+			2. no contractual liability
+		2. 定量
+			1. liquidity needs = spending + expense
+		
+	4. time horizen
+		perpetual, very long
+	
+	5. tax
+		tax-exempt except:
+		1. UBIT: unrelated business income, e.g. a gift shop of a museum
+		
+	6. legal
+		1. UMIFA法案
+	
+	7. unique circumstance
+		1. concentrated holding, 持仓高度集中
+		2. UBIT
+	

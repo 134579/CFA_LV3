@@ -1,0 +1,16 @@
+
+portfolio A, before tax return r = 10%
+return = 10%
+	- interest tax, percentage Pi, tax Ti
+	- divdend tax, percentage Pd, tax Td
+	- realized capital gain, percentage Pcg, tax Tcg
+	*unrealized capital gain, 当年不交税, 所以还会compound
+	
+after tax return r_art
+	= r - Pi*Ti - Pd*Td - Prcg *Trcg
+
+defered capital gain tax
+	= [(1+r_art)^n - B] * Tecg
+
+Pucg = 1 - Pi - Pd - Prcg
+Tcg * Pucg = Tecg * (1 - Pi*Ti - Pd*Td - Prcg *Trcg)

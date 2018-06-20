@@ -1,0 +1,8 @@
+A
+	i:
+	objective 1:
+		revocable trust is more appropriate
+		reason: revocable trust will have higher cost basis, thus minimize capital gain tax
+	ii:
+	objective 2:
+		irrevocable trust is not owned by the settlor thus provide protection from legal claim against settlor

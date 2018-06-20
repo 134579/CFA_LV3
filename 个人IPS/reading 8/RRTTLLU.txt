@@ -51,6 +51,7 @@ reading 8
 								education cost
 								
 					公式:
+						t=1 cash flow needs = t1 cash outflow - t1 cash inflow
 						required return = (t=1 cash flow needs)/TIA + inflation rate 
 							注: 这是税后收益(after tax rate of return)
 						pre tax return= required return / (1- tax rate)

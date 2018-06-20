@@ -1,0 +1,36 @@
+1. account types
+	1. taxable account
+		工资账户...
+		工资交税之后存入, 取出不交税
+		
+	2. tax defered account
+		养老金账户...
+		存入不交税, 每年不交税, 取出交税
+		取出税是withdraw tax
+		
+	3. tax exempt account
+		免税
+		资金交税之后才能进入(完税资金)
+		
+2.  该把资金放入哪个账户
+	1. fv计算
+		FV_tda = (1+r)^n(1-t_w)
+		FV_tea = (1-t_i)(1+r)^n
+		t_w: withdraw tax
+		t_i: income tax, 钱进入tea之前交的税
+	2. 结论
+		if t_i > t_w: 存入 defered account
+		
+3. tax alpha
+	1. 定义
+		由于tax account不同导致的税后收益alpha
+	2. 方法:
+		1. holding  period
+			different holding period corresponding different tax rate
+		2. HIFO
+			sell highest cost basis
+		3. tax loss saving
+			实现浮亏, 导致tax burden
+			10元买入, 8元的时候卖出再买入, 实现2元亏损, tax burden 2*t, 未来涨到12元, 交税capital gain tax=(12-8)*t_cg
+			相当于晚交税
+	
