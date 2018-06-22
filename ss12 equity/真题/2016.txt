@@ -1,0 +1,29 @@
+Question 3
+A:
+	IR = E(Rp - Rb)/ σ(Rp - Rb)
+	E(Rp - Rb) = (20% * 2.3% + 25% * 3.5%) = 1.335%
+	σ(Rp - Rb) = sqrt(var(Rp - Rb))
+	σ(Rp - Rb) = sqrt( 20%^2 * 4%^2 + 25%^2*8%^2 ), because correlation between euro largecap growth  and emerging market is 0
+			   = 215.40%%
+			   
+	IR = 1.335%/215.4%% = 0.6198
+
+B:
+	i:
+		ret based:	the style weight of euro large cap growth fall from 85% to now 58%, indicating this mandate deviates from large cap style
+		holding based: the mandate hold only 33% of top quantile sorted by cap, and the benchmark is 45%. so this mandate hold far less large cap equities than benchmark
+	ii:
+		ret based: the mandate hold a total of 85+5=90% large/small cap growth in the past and 58+32=90% currently. so its growing style doesn't change.
+		holding based:	the mandate's holding has higher P/E,P/B ratio, low didvend yield than benchmark
+			these are characteristic of growth stock.
+			
+C:
+	×most appropriate:
+		ara short extension
+		
+	×1. short extension strategy don't change β compared with simple long strategy
+	
+	** 
+	
+	
+	

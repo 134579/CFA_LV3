@@ -1,0 +1,9 @@
+1. 公式
+	Rp = (Ri(Ve + Vb) - Vb*Rb)/Vp
+	   = Ri + (Ri-Rb)*Vb/Ve
+	   Rp: portfolio return
+	   Rb: borrow rate
+	   Ri: return of bond
+	   Vb: borrow bond
+	   Ve: value of portfolio
+	   

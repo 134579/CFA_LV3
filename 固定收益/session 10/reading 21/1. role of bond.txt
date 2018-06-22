@@ -1,0 +1,19 @@
+1. role of fixed income
+	1. prodivde diversification benefit
+		low correlation with equity
+		low volatility
+	2. provide regular cash flow in portfolio
+		ALM
+	3. provide hedge for inflation
+		floating rate bond
+		inflation linked bond, 本金也随通胀变化
+		
+	
+2. immunization
+	return of bond = (coupon + reinvestment + capital gain)/price
+	coupon, price is fixed
+	so we need to hedge reinvestment and capital gain.
+	reinvestment and cg are all affected by interest rate
+	reinvestment can be viewed as a series ofzero coupon bond
+	so we should make duration = investment horizen
+		

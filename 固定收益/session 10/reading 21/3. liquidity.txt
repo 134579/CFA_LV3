@@ -1,0 +1,28 @@
+唯一考点
+影响liquidity的因素
+1. liquidity
+	1. 特点
+		1. bond liquidity < equity liquidity
+		2. on the run bond liquidity > off the run liquidity
+			新债券比老债券流动性好
+		3. liquidity ↓ -> risk ↓ -> return ↑
+		4. goverment bond liquidity > corporate bond
+			原因:
+			1. issuance size 大
+			2. used as benchmark 
+			3. used as collateral(担保) in repo(逆回购)
+			4. corporate bond has high credit risk
+			
+	2. 影响liquidity的因素
+		1. issuer
+			goverment >corporate
+		2. credit
+			↑ => liquidity ↑, 信用高好发
+		3. issue frequency
+			↑ => liquidity ↑, 老面孔好发债
+		4. issue size
+			↑ => liquidity ↑, 发行数量大, 便于做市
+		5. maturity
+			short term => liquidity ↑, 短期债券风险小些
+		
+		

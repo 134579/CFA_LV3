@@ -1,0 +1,39 @@
+1. enhanced indexing
+	1. primary indexing
+		primary risk与index相同,
+			interest rate risk
+			yield curve risk
+			spread risk
+		
+	2. key rate duration
+		year = 2, interest rate Δy = 1%, Δp = KRD%
+		p: 
+			A: 400w, 2 year, zero coupon
+			B: 600w, 3 year, zero coupon
+			assume 3 year interest rate +1%,
+			value change = 600w * duration * 1%
+						 = 18w
+			
+			18w/1000w = 1.8% = KRD%
+			=> KRD_3 = 1.8 = duration_b * w_b
+
+			
+	3. cash flow matching(non zero coupon)
+		p: 
+		A: 400w, 2 year, semiannual, coupon 10%
+		B: 600w, 3 year, zero coupon, semiannual, coupon6%
+		假设t=2, interest rate +1%, 问p变化百分比
+		cash flow:
+		t=0		0.5		1		1.5		2		2.5		3
+		A		20		20		20		420
+		B		18		18		18		18		18		618
+		
+		P		38		38		38		438		18		618
+		
+		看成6个zero coupon bond
+		cash flow of p at t=2:
+			Δvalue = 438 * 2 * 1%
+				   = 8.76w
+			pct = 8.76/1000w = 0.876%
+		** 错误, 要用438现值算权重
+			Δvalue = 438/(1+r)^2 * 2 * 1%

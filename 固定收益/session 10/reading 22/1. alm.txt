@@ -1,0 +1,53 @@
+1. liability分类
+	1. type I
+		time, amount知道
+		普通债权
+	2. type II
+		amount知道
+		time不知道
+		含权债券
+		保险
+	3. type III
+		amount不知道
+		time知道
+		floating rate bond
+	4. type IV
+		都不知道
+		db plan
+		
+1. immunization的风险
+	1. interest rate risk
+		convexity
+	2. structural risk(也可以叫yield curve risk)
+		barbell, 到期时间杠铃型, 
+		bullet, 到期时间集中
+		由于yield curve non parallel shift including flatten or more curved, 影响的都是两端的利率, 所以barbell对structural risk更敏感
+	3. rebalance risk
+		trade off between rebalance and transaction cost
+		
+2. multiple liability
+	1. immunization
+		pv, duration match
+		1. 算出所有liability的pv, duration
+			pv = w[i] * pv[i] for i in 1 to n
+				n: total number of liability
+				w[i]: portion of liability n
+			duration = p[i] * duration[i] for i in 1 to n
+		
+		2. BPV: basis point value
+			BPV: Δy = 1bp, Δprice of bond in $
+			$ duration: Δy = 1%, Δprice of bond in $
+			
+	2. cash flow matching
+		上午计算题
+	
+3. derivative overlay
+	1. 原理:
+		用衍生品调节久期, 让资产,负债 BPV相同
+	2. 为什么用衍生品
+		流动性好
+		定价准确
+	3. 计算
+		asset bpv + N * derivative bpv = liability bpv
+			=> N = (liability bpv - asset bpv)/(derivative bpv)
+		

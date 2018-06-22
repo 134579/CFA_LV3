@@ -1,0 +1,17 @@
+1. interest rate risk
+	1. duration
+	2. convexity
+	
+2. yield curve risk, key rate duration
+	1. slope change: flatten -> twist
+	2. curvature: more curved <-> less curved, butterfly
+		
+3. spread risk
+	spread duration
+	
+4. credit risk
+
+5. liquidity risk
+
+6. operation risk
+

@@ -1,0 +1,13 @@
+1. asset class 大类资产划分
+	1. within class, homogeneous
+	2. mutually exclusive
+	3. different class should be diversify
+
+2. risk factor
+	
+3. strategic asset allocation(非常重要)
+	utility function:
+		U = E(r_p) - 1/2 * λ * σ_p^2
+		λ: 越大说明风险厌恶程度越高
+		r_p: 收益
+		σ_p: 标准差

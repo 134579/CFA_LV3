@@ -1,0 +1,43 @@
+1. cognitive error or emotional biases
+	1.behavioral bias including
+		1. cognitive error
+			resulting from faulty thinking, memory error
+			
+		2. emotional bias
+			resulting from reasoning influenced by feelings, impulse, intuition...
+																本能	直觉
+																
+2. risk
+	1. 分类
+		risk averse: 风险厌恶
+		risk seeking: 风险偏好
+		risk neutral: 风险中性
+		
+3. utility function
+	U = f(m)
+	U: utility
+	m: money
+	1. risk averse
+		向上曲线, slope become smaller as moey increase
+		一阶导数 > 0
+		二阶导数 < 0
+		concave
+		
+	2. risk seeking
+		向上曲线, slope become larger as moey increase
+		convex
+		
+	3. risk neutral
+		直线
+
+4. bounded rationality
+	1. 有限理性, 够用就好
+		people are willing to accept a saticficing solution, but not to find a optimal solution
+	2. 如果达到预期, 上调预期, 如果没达到预期, 下调预期
+		if aspiration is reached, adjust aspiration upward
+		if aspiration is not reached, adjust aspiration downward
+		
+		
+	
+5. prospect theory
+	gain seeking, loss averse

@@ -1,0 +1,66 @@
+1. mandates
+	1. ALM(重要)
+		objective: cover liability
+	2. AO(次要)
+		objective: achieve highest risk adjusted return
+	
+2. ALM mandates
+	1. classical immunization, 传统免疫策略(早上必考)
+		用于cover single liability, 保持asset和liability的pv和duration一样
+		
+		pv * (1+r)^n = fv
+		r = (coupon + reinvestment + capital gain)/price
+		要让r固定, 就要reinvestment和capital gain抵消
+		** 1. 步骤
+			1. PV_l = FV_l/(1+r)^n = PV_a
+			2. PV_a * (1+r_a)^10 = FV_l
+				=> r_a = r
+			3. duration of a = horizen **
+		2. 要求
+			PV_a = PV_l
+			duration_a = duration_l
+			=> immunization
+		
+		3. 风险
+			1. interest rate risk
+				convexity
+			2. yield curve risk
+				interest rate non parallel shift risk
+			3. rebalancing risk
+				duration_l changes when time passing
+				need to rebalance asset to make duration_a = duration_l
+				
+	2. cash flow matching, (早上可能考计算)
+		用于cover multi liability
+		1. 步骤
+			假设有五个liability, L1...L5
+					L1	L2	L3	L4	L5
+			t=0		1	2	3	4	5
+			先买一个5年期债券a, 且:
+				coupon_a + par_a = L5
+			再买一个4年期债券b, 且:
+				coupon_a + coupon_b + par_b = L4
+			再买一个3年期债券c, 且:
+				coupon_a + coupon_b + coupon_c + par_c = L3
+			再买一个2年期债券d, 且:
+				coupon_a + coupon_b + coupon_c + coupon_d + par_d = L2
+			再买一个1年期债券e(零息债券), 且:
+				coupon_a + coupon_b + coupon_c + coupon_d + par_e = L1
+			债券a-e构成的组合
+		2. 风险
+			1. no interest rate risk 
+			2. no rebalancing risk
+			3. risk is that can't found bond that matching cash flow
+			
+	3. contingent immunization
+		use pv_a > pv_l, use pv_a - pv_l to do active portfolio management, 用多余的钱去浪...
+	4. horizen matching
+		short term liability, use cash flow matching, 短期负债用cash flow matching, 因为短期负债受利率波动影响大, 没法immunization
+		long term liability, use immunization, 长期负债用immunization
+		
+3. AO(total return mandates)
+	1. pure indexing, 指数复制
+		1. 方法
+			1. 和指数成分完全一样
+			2. 和指数风险敞口匹配
+	2. enhanced indexing, 指数增强

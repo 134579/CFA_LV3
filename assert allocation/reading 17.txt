@@ -1,0 +1,68 @@
+1. AO
+	1. MVO, mean variance optimization
+		1. 步骤
+			1. 预测E(r_i), σ_i, cov
+			2. 构造effective frontier
+				1. Σw_i = 1
+				2. max(Σw_i*r_i)
+				3. min(σp)
+				4. 其他constraints, 如不准卖空
+			3. 引入rf
+			
+	2. corner portfolio
+		1. 注意
+			由于各种constraints, 实际可用的portfolio集合
+			可以将`两个`(不能考太难)portfolio按一定比例组合得到满足要求的portfolio
+			如果收益要求 = r,
+			选择的两个portfolio收益一般一个小于r, 一个大于r, 而且收益在r相邻两侧
+		2. 例子:
+			id		E(R)	σ		sharpe
+			P1 		9%		16%		0.436
+			P2		7.5%	11.5%	0.478
+			P3		5.5%	7.7%	0.455
+			P4		5.3%	7.6%	0.434
+			如果收益要求 = 7% , 那么选P2, P3构成最优portfolio
+			权重: w * 7.5 + (1-w) * 5.5 = 7
+				w = 0.75
+				σp^2 = w^2*σ1^2 + (1-w)^2*σ2^2 + 2*w1*w2*corr*σ1*σ2
+				even corr = 1, worst case
+				σp = wσ1 + (1-w)σ2
+			
+			
+	3. 缺点
+		1. highly sensitive to small changes in input
+		2. highly concentrated in a subset of asset
+		3. use only mean and variance and ignore other useful statistics like skewness and kurtosis
+		4. don't not consider tranding and rebalancing cost
+		5. risk factor may overlap
+	
+	4. 怎么解决
+		1. 加更多constraint
+		2. resampled MVO
+			combine MCS and MVO
+			用MCS预测多组E(R), σ, cov, 然后用MVO求很多EF, 然后平均
+		3. reverse optimization
+			1. 步骤
+				1. 根据portfolio反推implied return
+				portfolio为global index
+				2. 根据implied return计算MVO
+		4. black litterman
+			1. 步骤
+				1. reverse optimization计算implied return
+				2. 加入分析师return预期
+					adjusted return = w * implied return + (1-w) * analysis return estimation
+				3. 根据adjusted return调用MVO计算weight
+			2. 优点
+				
+2. ALM
+	1. surplus optimization
+		maximum asset - liability, use mean variance optimization
+	2. return seeking approach(two portfolio approach)
+		1. basic approach
+			p = liability hedging portfolio(ALM) + return seeking portfolio(AO)
+			只有overfunded时才能用
+		2. variants approach
+			when underfunded, use this
+			p = liability partial hedging portfolio + return seeking portfolio
+			
+	

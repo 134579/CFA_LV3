@@ -1,0 +1,80 @@
+1. information ratio
+	IR = (Rp - Rb)/σ(Rp - Rb),
+		Rb: return of benchmark index
+	sharpe ratio = (Rp - Rf)/σ(Rp - Rf)
+	
+2. index
+	1. price weighted
+		买一样的数量(不管价格), 价格高的影响大
+		
+	2. value weighted
+		买的价值为市值加权
+	
+	3. equal weighted
+		买一样的市值
+		
+3. 指数构造
+	1. full replication
+		全买
+		1. 要求
+			1. 种类少
+			2. 流动性好
+			3. 基金资金量大
+		2. 好处
+			tracking risk小
+			
+	2. stratified sampling
+		每个行业(规模, 或者其他factor)抽一些
+		1. 好处:
+			可以选流动性好的
+	3. optimization
+		利用数学方法从指数中抽样
+		1. 缺点:
+			risk sensitivity 时变
+			wrong model
+			need rebalancing
+	
+4. equity style
+	1. value
+		low p/e, p/b
+		high divdend
+	2. growth
+	3. market-oriented(core or blend)
+		既value又growth
+		
+5. style analysis
+	1. return based analysis
+		r_p = β0 + β1*LCV + β2 * LCG + β3 * SCV + β4*SCG
+		LCV: large capital value return
+		SCG: small capital growth return
+		βi越大, 说明对应风格更明显
+	2. holding based analysis
+		直接看持仓
+		1. value oriented
+			low pe pb
+			high divdend
+			
+	3. 对比
+		return based:
+			objective
+			查看最近一段时间style
+		holding based:
+			data intensive
+			查看当前style
+		
+		
+6. long-short portfolio
+	1. pair trading
+		long an equity and short another equity who has the same risk factor
+		long 100$, short 100$
+		β = 0
+		benchmark = risk free rate
+	2. short extension
+		long 低估值的, short高估值的, 但value不同
+		long 130$, short 30$
+		β与 long 100$相同
+		
+7. IR, IC, IB
+	IR = IC * sqrt(IB)
+	IC: correlation between expected return and actual return 
+	IB: 一年交易次数

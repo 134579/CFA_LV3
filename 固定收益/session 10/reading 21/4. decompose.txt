@@ -1,0 +1,45 @@
+收益分解
+1. 粗略版
+	return = (coupon + reinvestment + capital gain)/ (bond price begining)
+	其中:
+		
+		
+			
+		
+			
+			
+2. 细版
+	return = (yield income)
+		+ (capital gain/loss)
+		- (credit loss)
+		+ (currency gain/loss)
+	where
+		yield income 
+			= coupon + reinvestmen
+			
+		capital gain/loss = 
+			rolldown return : yield curve不变, 单纯由于时间前进, 债券价格变化
+			+ (Δprice caused by yield change): 利率变化导致价格变化
+			
+			rolldown return = (bond price_now - price_begining)/price_begining
+			Δprice caused by yield change = -effect duration * Δyield + 1/2 * convexity * (Δyield)^2
+			
+		credit loss = p(default) * expect loss if default
+		
+
+3. 例子
+
+	P27/100
+		
+		
+yield income = 2.75/97.11 = 2.831%
+rolldown return = (97.27-97.11)/97.11 = 0.165%
+Δ(bond price caused by yield change) = -duration * Δ(yield) + 1/2*convexity*(Δyield)^2
+									 = - 3.7 * 0.26% + .5 * 0.18 * (0.26%)^2
+									 = -0.962% + 0.0001%
+									 = -0.962%
+									 
+credit loss = 0.1%
+currency loss = 0.5%
+return = (2.831 + 0.165- 0.962 - 0.1 - 0.5)%
+	   = 1.434%
