@@ -37,7 +37,5 @@
 		if aspiration is reached, adjust aspiration upward
 		if aspiration is not reached, adjust aspiration downward
 		
-		
-	
 5. prospect theory
 	gain seeking, loss averse

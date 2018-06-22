@@ -1,0 +1,54 @@
+1. behavioral bias
+	1. cognitive error
+		1. belief perseverance bias
+			1. conservatism bias, 保守偏见
+				maintain their prior view
+				
+			2. confirmation bias, 确认偏见
+				只注意肯定他们观点的证据
+				only notice information that agrees with their perception
+				ignoring evidence that don't agree with their view or decision 
+			
+			3. representativeness bias, 代表性偏见
+				以偏概全
+				sample size neglect			
+				
+			4. illusion of control
+				以为自己能控制
+				tend to believe they can control or influnce the result when in fact they can't
+			
+			5. hindsight bias
+				事后诸葛亮
+				thought past things was predictable
+				
+		2. information processing bias
+			1. anchoring and adjustment, 锚定效应
+				估计某个值时, 莫名其妙脑补一个初始点, 然后根据这个锚来调整..
+			2. mental account bias, 心理账户
+				在心里把相同数量的钱分给两个心理账户, 给与不同的风险偏好
+			3. framing bias, 
+				问问题的不同方法导致结果不同
+			4. availability bias,
+				用下意识的念头来判断
+				
+	2. emotional bias
+		harder to correct
+		1. loss aversion bias
+		2. overconfidence bias
+			1. prediction overconfidence
+			2. self attribution bias
+				成功归自己, 失败怪他人
+				self protection bias
+				self enhancing bias
+			3. self control bias
+				控制不了自己去干长期有益的事
+				lack of self discipline
+			4. satatus quo bias
+				保持现状
+				do nothing instead of making changes
+			5. endowment bias
+				对自己拥有的东西过高估值
+			6. regret aversion bias
+				后悔厌恶
+				心血来潮做一个新决策, 然后损失了, 后悔感比通常的决策损失更强烈
+		
