@@ -1,0 +1,44 @@
+1. effective spread
+	1. 定义
+		inside bid, market bid: highest bid in market
+		indide ask : lowest ask in market
+	2. 计算
+		effective spread =  2 * |execution price - (inside bid + inside ask)/2|
+		如果effective spread < (inside ask - inside bid), 说明execution price较好
+		
+	3. average effective spread
+		1. simple average
+			= avg(effective spread_i)
+		
+		2. shares weighted average effective spread
+			= (Σ(shares[i] * effective spread[i]))/Σshares[i]
+			
+
+2. VWAP
+	1. 定义
+		交易数量加权平均价格
+	2. 计算
+		vwap = = (Σ(shares[i] * price[i]))/Σshares[i]
+	
+	3. 缺点(重点)
+		1. 如果用市场的vwap和dealer的vwap对比, 如果dealer成交的数量很大, 那么市场vwap和dealer的vwap会很接近, 但这并不能说明dealer的交易很好
+		2. 可能会等到收市之前, 市场vwap基本定了之后, 再根据市场vwap和当前价格决定买入还是卖出
+		
+3. implementation shortfall
+	1. 组成
+		1. explicit cost
+		2. realized profit/loss
+			execution price - decision price(preclose)
+		3. delay/slippage
+			close(price enter time) - close(price filled time)
+		4. missed trade opportunity cost
+			cancel price - decision price
+	2. 优点
+4. rebalancing strategy
+	1. calendar rebalancing
+		缺点
+		far from optimal
+		
+	2. percent of portfolio
+		
+	3. dynamic rebalancing
